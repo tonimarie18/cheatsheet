@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h2>JavaScript Cheat Sheet</h2>
+    <div class="grid-container">
+        <div class="grid-item">
+            <a href="#variables">Variables</a>
+        </div>
+        <div class="grid-item">
+            <a href="#loops">Loops</a>
+        </div>
+        <div class="grid-item">
+            <a href="#functions">Functions</a>
+        </div>
+        <div class="grid-item">
+            <a href="#debugging">Debugging</a>
+        </div>
+    </div>
+
+
+<section id="variables">
+  <h3>Variables</h3>
+  <p>Variables are containers for storing data values.</p>
+  <pre><code>
+    let x = 5;       // Block-scoped, can be reassigned
+    const y = 10;    // Block-scoped, cannot be reassigned
+    var z = 15;      // Function-scoped, not recommended
+  </code></pre>
+</section>
+
+<section id="loops">
+  <h3>Loops</h3>
+  <p>Loops allow you to execute a block of code multiple times.</p>
+  <pre><code>
+    // For loop
+    for (let i = 0; i < 5; i++) {
+      console.log(i);
+    }
+
+    // While loop
+    let count = 0;
+    while (count < 5) {
+      console.log(count);
+      count++;
+    }
+  </code></pre>
+</section>
+
+<section id="functions">
+  <h3>Functions</h3>
+  <p>Functions are blocks of reusable code that perform a specific task.</p>
+  <pre><code>
+    // Function declaration
+    function add(a, b) {
+      return a + b;
+    }
+
+    // Arrow function
+    const multiply = (a, b) => a * b;
+  </code></pre>
+</section>
+
+<section id="debugging">
+  <h3>Debugging</h3>
+  <p>Debugging helps identify and fix errors in your code.</p>
+  <pre><code>
+    console.log("Checking variable x:", x);
+    debugger; // Pauses execution in the browser debugger
+  </code></pre>
+</section>
+
+    
+</body>
+</html>

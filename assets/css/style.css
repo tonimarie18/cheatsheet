@@ -1,0 +1,86 @@
+* , *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  margin: 20px ;
+}
+
+section h3 {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+
+pre > code {
+  display: block;
+	background: #f1f1f1;
+	padding: 1.33em;
+	border-radius: 0.33em;
+}
+
+/* General Styles */
+#content-grid {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #content-grid h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Grid Layout */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  /* Grid Items */
+  .grid-item {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .grid-item a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 1.5rem;
+  }
+  
+  .grid-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .grid-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+
+
+

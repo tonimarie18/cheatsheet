@@ -1,0 +1,32 @@
+File Structure cheatsheet website
+
+cheatsheet-website/
+├── index.html                 # Main page (homepage with links to sections)
+├── content/                   # Folder for dynamically loaded content
+│   ├── frontend/              # Frontend-related topics
+│   │   ├── html-css.html      # HTML & CSS content
+│   │   ├── javascript.html    # JavaScript content
+│   │   ├── react.html         # React content
+│   ├── backend/               # Backend-related topics
+│   │   ├── node.html          # Node.js content
+│   │   ├── mongodb.html       # MongoDB content
+│   │   ├── theory.html        # Backend theory content (CRUD, APIs)
+│   ├── other/                 # Miscellaneous topics
+│       ├── workflow.html      # Workflow content
+│       ├── git.html           # Git basics
+│       ├── tools.html         # Development tools
+├── assets/                    # Assets folder for styles, scripts, and media
+│   ├── css/
+│   │   ├── styles.css         # Global styles
+│   │   ├── frontend.css       # Frontend-specific styles
+│   │   ├── backend.css        # Backend-specific styles
+│   ├── js/
+│   │   ├── app.js             # Main JavaScript file for dynamic loading
+    |   |── main.js            # Javascript file for including header and footer
+│   ├── images/                # Images used in the site
+│       ├── logo.png
+│       ├── icons/
+├── includes/                  # Reusable header/footer templates (optional)
+│   ├── header.html
+│   ├── footer.html
+├── README.md                  # Project documentation
